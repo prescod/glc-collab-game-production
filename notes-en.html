@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+  <main>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        ##Instructor Notes
+
+        ##Girls Learning Code: Collaborative Game Production
+        <br>
+
+        #INDEX
+        ###<a href="#slide2" target="_self">Using Scratch</a>
+        ###<a href="#slide3" target="_self">Schedule</a>
+        ###<a href="#slide4" target="_self">Introduction</a>
+        ###<a href="#slide5" target="_self">Tech Stations: Group 1</a>
+        ###<a href="#slide6" target="_self">Tech Stations: Group 2</a>
+        ###<a href="#slide7" target="_self">Beta Testing</a>
+        ###<a href="#slide8" target="_self">Game Release</a>
+        ###<a href="#slide9" target="_self">Unplugged Activity (Optional)</a>
+        ###<a href="#slide10" target="_self">Closing</a>
+
+        <br>
+        #Using Scratch
+
+        Scratch is a great tool for teaching coding concepts, and building fun and creative digital games. If you aren’t familiar with the program: great news! There are tons of free, online resources to get you started. Here are a few that we think are awesome:
+
+        * Scratch <a href="https://scratch.mit.edu/educators/#resources">Educator Resources</a> (especially the <a href="https://cdn.scratch.mit.edu/scratchr2/static/__0c1805349a6fe15c01c668d3f8acd971__/pdfs/help/Getting-Started-Guide-Scratch2.pdf">Getting Started Guide</a>)
+        * Google CS First <a href="https://www.cs-first.com/training/introduction-computer-science-and-scratch">Training Materials</a>
+        * Teachers Learning Code <a href="http://teacherslearningcode.com/assets/TLC-gettingstartedguide.pdf">Guide</a>
+        * Scratch ED: Using the Scratch <a href="http://scratched.gse.harvard.edu/resources/scratch-teacher-accounts">Teacher Account</a>
+
+        <br>
+        #Schedule
+
+        ![intro icon](framework/img/workshop/intro-icon.png) Introduction &amp; Brainstorming (1 hour)
+
+        ![laptop icon](framework/img/workshop/laptop-icon.png) Tech Stations - Round 1 (1 hour)
+
+        &nbsp; &nbsp; &nbsp; Break (15 min)
+
+        ![laptop icon](framework/img/workshop/laptop-icon.png) Tech Stations - Round 2 (1 hour)
+
+        ![code-along icon](framework/img/workshop/code-icon.png) Beta Testing (30 min)
+
+        &nbsp; &nbsp; &nbsp; Game Release (15 min)
+
+        <br>
+        #Introduction
+
+        ##Kick-Off Script
+
+        Welcome to our Girls Learning Code workshop: Collaborative Game Production! We’re so glad that you could be here today and hope you’re ready to learn lots of new things.
+
+        How many of you have been to one of our workshops or camps before?
+        (If you get some hands up, ask a few of them what workshops they attended)
+
+        We started running our first programs for kids with Girls Learning Code workshops and camps back in 2012, and then since we had so many people asking if boys could come too we started Kids Learning Code a year later in 2013. Since then, we’ve expanded to over 30 cities across Canada and have taught over 19,000 kids how to code!
+
+        Before we get started with our workshop, there are a few things we need to go over:
+
+        * <strong>Washrooms:</strong> Can everyone please point in the direction of the washrooms? (clarify where they are located) If you need to go to the washroom, please go with another learner (or your parent/guaridan).
+        * <strong>Water:</strong> If you brought a water bottle with you, you’re welcome to keep it on your desk, but make sure to keep the lid closed when you’re not using it.
+        * <strong>Break/snacks:</strong> We’ll have a break mid-way through, when you can eat any snacks you brought with you or just stretch your legs. If you have a (peanut free) snack, please clean up any crumbs or wrappers when you’re done.
+
+        ##Intro Slides
+
+        <table style="font-size:2rem;">
+            <tr>
+              <td><strong style="background:#8b31e0; color:white; font-size:3.2rem;">Slide</strong></td>
+              <td><strong style="background:#8b31e0; color:white; font-size:3.2rem;">Notes</strong></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/3.jpg" alt="slide"></td>
+              <td> Now I want to introduce you all to some important people: our mentors!
+              <br>
+              <i>Have mentors join you at front of class and get them to say their name and favourite website/game</i>
+              <br><br>
+              The mentors will be here to help you if you have any problems, so don’t be afraid to ask them questions if you get stuck, or if you just want to show them your awesome projects! </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/5.jpg" alt="slide"></td>
+              <td>Review the agenda. Stress that we will be rotating through TWO stations - not everyone will try every station, but everyone will try 2 of the 3. </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/6.jpg" alt="slide"></td>
+              <td>
+                <ol>
+                    <li><strong>Ask for help</strong>: If you’re stuck or having trouble with something, work with the person beside you, or put up your hand to ask the facilitator or one of our mentors for help
+                    <li><strong>Be present</strong>: We really want you to learn a lot in this workshop, so make sure to pay attention and follow along with the activities
+                    <li><strong>Try your best</strong>: Even the best coders have trouble sometimes, so we don’t expect you to do everything perfectly the first time, but make sure you’re trying your best. Don’t be afraid to try things out and make mistakes!</td>
+                  </ol>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/7.jpg" alt="slide"></td>
+              <td> *Take 2-3 responses*</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/8.jpg" alt="slide"></td>
+              <td> *Great time for Do the Robot unplugged activity*</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/10.jpg" alt="slide"></td>
+              <td>Q: What does collaborative mean?
+              <br>A: Together! We will be working on different projects and combining them to make one, amazing project.
+              <br><br>Q: What is a social issue? How is it different than a personal issue?
+              <br>A: A social issue affects a society or large group of people.</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/11.jpg" alt="slide"></td>
+              <td> *Take 2-3 responses*</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/12.jpg" alt="slide"></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/13.jpg" alt="slide"></td>
+              <td>We're going to work through these stages together. They will be squished to fit into our workshop, but for most games, this process can take years to complete.
+              <br><br>Q: What do you notice about the production diagram / arrows?
+              <br>A: There are dotted arrows looping backwards. We might need to test things and make changes as we go.</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/14.jpg" alt="slide"></td>
+              <td>Today, each of you will work in teams and try out 2 of the 3 stations. There are more than just these three teams in a game production agency, but we will focus on Audio, Artworks, and Gamebuilding (or programming). </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/15.jpg" alt="slide"></td>
+              <td>Here are our three stations. We will have two groups begin with me at the Gamebuilding station, then split off to one of the other stations when we switch with the other two groups.
+              </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/16.jpg" alt="slide"></td>
+              <td>We can use technology (and games, specifically) to change the world! This could mean small changes, even - like helping people know that an issue exists. </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/17.jpg" alt="slide"></td>
+              <td>Games for Change is an organization that uses video games to create real-world change. Their mission statement is to "empower game creators and social innovators to drive real-world impact through games."
+              <br><br>Here are two examples from their website. </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/18.jpg" alt="slide"></td>
+              <td> We are going to create a "Catch Em" game, where our main character moves using the arrow keys, and they need to catch and avoid certain items.
+                <br><br>Here is an example of a "Catch Em" game. Ours will look different - with different players, goals, and rules - but will function more-or-less the same.
+                <br><br>*Press play to show the group*
+              </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/19.jpg" alt="slide"></td>
+              <td>*Insert theme here once you've chosen from the theme options (For example: Declining Bee Population)*
+              <br><br>Q: What do we know about our theme?
+              <br><br>*Go through each question with the group. Use the theme information sheet to add any important background information that was missed.*</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/20.jpg" alt="slide"></td>
+              <td>Q: Who can our main character be? What could they be collecting or avoiding?
+                <br><br>*Have learners turn to 2-3 elbow partners and brainstorm ideas for how to remix the "Catch Em" game.
+                <br><br>Put up a timer for 1-2 minutes (timer-tab.com). Before having them share with the entire group - go to the next slide to explain what a GDD is.*
+             </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/21.jpg" alt="slide"></td>
+              <td>A Game Design Document or GDD is how we will keep track of the ideas for our game.
+              <br><br> Q: Why does a GDD need to be "living" or changing?
+              <br>A: As we create our game, we might change our mind, have another idea we want to add in, or come across an issue that results in changing a part of our game. This is completely normal!
+              </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/22.jpg" alt="slide"></td>
+              <td>*Use a white board or anchor chart paper and markers to create your GDD with the group. Write <strong>Players, Rules, Goals, Title</strong> on the board.
+              <br><br>Have each group share their idea(s) from the Think-Pair-Share activity on what our game could look like.
+              <br><br>When someone has an idea, write it on the board. If the same idea is repeated, circle or underline it.
+              <br><br>Be sure to answer each of these questions together. Feel free to have the group vote or make an executive decision to save time.
+              <br><br> If you have coming up with ideas, see the example GDD on the theme information sheet for inspiration.*</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/23.jpg" alt="slide"></td>
+              <td>Today, we will work in pairs - either with another learner, or with a child and their parent/guardian.
+              <br><br>Q: Why pair programming? What might be the benefits of working with someone else?
+              <br>A: (e.g.) Two heads are better than one. The other person might have an idea to make the project even better. The other person can help catch mistakes and work with you to problem-solve. We can get more done in a shorter time when working with others. Etc...</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/24.jpg" alt="slide"></td>
+              <td><strong><em>The Chapter Lead will provide a list of teams. Direct 2 teams to the Gamebuilding station, 1 to the Audio station, and 1 to the Artworks station.</em></strong>
+              <br><br>When we call your name, please stand up. Once everyone in your team is standing, we will tell you which station to start at. While your team is waiting, you can (quietly!) share your names etc. and get to know each other!
+              <br><br>We will let you know when it's time to get started and listen to the mentors for instructions.</tr>
+          </table>
+
+        <br>
+        #Tech Stations: Group 1
+
+        * Review the checklist of what will be completed at this station
+        * Pair learners and assign each pair a level number
+        * Instruct each pair to create an account in scratch using the instructions on Slide 27
+        * <strong>Have pairs record their login info for the next group</strong>
+        * Quick Code-Along:
+          * Open up Scratch, and click on “create” (top, left corner)
+          * Point out the main elements: Stage, Sprites, and Scripts. Demonstrate how to drag and connect blocks
+          * Give learners 2 minutes to click on blocks and explore
+        * Follow the <strong><a href="https://drive.google.com/open?id=1AQNH-EQUEVi8GGe_lpqPpLaNOU2F5Rx0u0srs5nB-k0">solution sheet</a></strong> as you lead the group in creating a working foundation, stopping right after "Falling Obstacles"
+        * <strong>Tip</strong>: If the room is too loud - have learners leave their computers and come stand/sit right in front of the screen
+        * If you run out of time, continue where you left off with the second group
+        * Make sure everyone clicks on "SHARE" when they are finished (top, right corner)
+        * Have learners add their projects to the studio (Go to "My Class" > Select studio > Add Projects) - See slide 28
+
+        <br>
+        #Tech Stations: Group 2
+
+        * Review the checklist of what will be completed at this station
+        * Pair learners and assign each pair a level number
+        * Instruct learners to sign in with the logins recorded from the first group
+        * Quick Code-Along: (in a blank project)
+          * Open up Scratch, and click on “create” (top, left corner)
+          * Point out the main elements: Stage, Sprites, and Scripts. Demonstrate how to drag and connect blocks
+          * Give learners 2 minutes to click on blocks and explore
+        * Show them how to continue a project using the instructions on Slide 32
+        * Follow the <strong><a href="https://drive.google.com/open?id=1AQNH-EQUEVi8GGe_lpqPpLaNOU2F5Rx0u0srs5nB-k0">solution sheet</a></strong> as you lead the group in continuing their levels, picking up where the last group left off, and completing as much of the checklist as you can.
+        * <strong>Tip</strong>: If the room is too loud - have learners leave their computers and come stand/sit right in front of the screen
+
+
+        <br>
+        #Beta Testing
+
+        * Get everyone's attention and have them wrap up what they are doing at their station
+        * Use the slides to explain beta testing (see notes below)
+        * Explain that we will be focused on playing/testing the levels - we might not have time to fix every bug, but it's still valuable to get a taste of the process.
+        * While learners are testing the levels, take this time to collect USB's and get ready for the 'Game Release'
+
+        <table style="font-size:2rem;">
+            <tr>
+              <td><strong style="background:#8b31e0; color:white; font-size:3.2rem;">Slide</strong></td>
+              <td><strong style="background:#8b31e0; color:white; font-size:3.2rem;">Notes</strong></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/33.jpg" alt="slide"></td>
+              <td><em>Take 2-3 responses</em> </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/34.jpg" alt="slide"></td>
+              <td>Q: What is an example of a 'bug' that we could come across in our game?
+              <br>A: (e.g. The falling obstacle doesn't delete/disappear when it touches the ground)</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/35.jpg" alt="slide"></td>
+              <td><em>Try to take any examples from the previous slide and categorize them together</em> </td>
+              </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/36.jpg" alt="slide"></td>
+              <td><em>Go through the instructions together - before learners open their computers.
+                <br><br>Have learners pair program with parents/guardians, if present.
+                <br><br>If anyone has trouble logging in (with multiple users per account) they can still access the Scratch Class and play without logging in. Open up the Class and direct them to the URL (e.g. <a href="https://scratch.mit.edu/classes/68398/">scratch.mit.edu/classes/68398</a>)</em> </td>
+            </tr>
+            </table>
+
+        <br>
+        #Game Release
+
+        * <strong>Before</strong>: Collect all of the team USBs - Be sure to download the opening audio track (and any other ones created) to play for the group
+        * Instruct everyone to wrap up what they are working on and close their laptops
+        * Play the opening audio track to kick-off the game release
+        * Open up the Scratch Class Studio and briefly Demo each level for everyone (Optional: Have learners volunteer to help demo each level)
+        * Play any closing audio tracks (if applicable)
+        * <strong>Reflection</strong>: Use Slide 38 to reflect on what we learned
+        * Use Slide 39 to draw attention to anything that was missed
+
+        <br>
+        #Unplugged Activity (Optional)
+
+        If you notice that the group is needing a break, give them 10 minutes to use the washroom, get some water, or grab a snack from their bags. Another option is to run an unplugged activity midway through the workshop to get them out of their seats and moving around. Unplugged activities usually take around 10 minutes to run. Choose an unplugged activity from the <a href="https://docs.google.com/document/d/1tUTiHl7scs8RHdLLvdmZTFtD9EuAyZhetTLFgvar5CQ/edit?usp=sharing">activity list</a>. Suggested activity: Do The Robot.
+
+        <br>
+        #Closing Script
+
+        You all did an amazing job and we’re really impressed with how great your projects turned out.
+
+        If you want to learn more about coding, design, and technology, go onto our site girlslearningcode.com to check out all of our upcoming workshops and join our mailing list. (Announce next workshop and give short description).
+
+        Before we go, let’s give our mentors a big hand!
+
+        Thanks and we hope to see you all in another workshop soon!
+
+        <strong>Don't forget to take a team photo! </strong>
+
+       </script>
+    </section>
+
+<!--Additional slides to link from index-->
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Using Scratch
+
+      Scratch is a great tool for teaching coding concepts, and building fun and creative digital games. If you aren’t familiar with the program: great news! There are tons of free, online resources to get you started. Here are a few that we think are awesome:
+
+      * Scratch <a href="https://scratch.mit.edu/educators/#resources">Educator Resources</a> (especially the <a href="https://cdn.scratch.mit.edu/scratchr2/static/__0c1805349a6fe15c01c668d3f8acd971__/pdfs/help/Getting-Started-Guide-Scratch2.pdf">Getting Started Guide</a>)
+      * Google CS First <a href="https://www.cs-first.com/training/introduction-computer-science-and-scratch">Training Materials</a>
+      * Teachers Learning Code <a href="http://teacherslearningcode.com/assets/TLC-gettingstartedguide.pdf">Guide</a>
+      * Scratch ED: Using the Scratch <a href="http://scratched.gse.harvard.edu/resources/scratch-teacher-accounts">Teacher Account</a>
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Schedule
+
+      ![intro icon](framework/img/workshop/intro-icon.png) Introduction &amp; Brainstorming (1 hour)
+
+      ![laptop icon](framework/img/workshop/laptop-icon.png) Tech Stations - Round 1 (1 hour)
+
+      &nbsp; &nbsp; &nbsp; Break (15 min)
+
+      ![laptop icon](framework/img/workshop/laptop-icon.png) Tech Stations - Round 2 (1 hour)
+
+      ![code-along icon](framework/img/workshop/code-icon.png) Beta Testing (30 min)
+
+      &nbsp; &nbsp; &nbsp; Game Release (15 min)
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Introduction
+
+      ##Kick-Off Script
+
+      Welcome to our Girls Learning Code workshop: Collaborative Game Production! We’re so glad that you could be here today and hope you’re ready to learn lots of new things.
+
+      How many of you have been to one of our workshops or camps before?
+      (If you get some hands up, ask a few of them what workshops they attended)
+
+      We started running our first programs for kids with Girls Learning Code workshops and camps back in 2012, and then since we had so many people asking if boys could come too we started Kids Learning Code a year later in 2013. Since then, we’ve expanded to over 30 cities across Canada and have taught over 19,000 kids how to code!
+
+      Before we get started with our workshop, there are a few things we need to go over:
+
+      * <strong>Washrooms:</strong> Can everyone please point in the direction of the washrooms? (clarify where they are located) If you need to go to the washroom, please go with another learner (or your parent/guaridan).
+      * <strong>Water:</strong> If you brought a water bottle with you, you’re welcome to keep it on your desk, but make sure to keep the lid closed when you’re not using it.
+      * <strong>Break/snacks:</strong> We’ll have a break mid-way through, when you can eat any snacks you brought with you or just stretch your legs. If you have a (peanut free) snack, please clean up any crumbs or wrappers when you’re done.
+
+      ##Intro Slides
+
+      <table style="font-size:2rem;">
+          <tr>
+            <td><strong style="background:#8b31e0; color:white; font-size:3.2rem;">Slide</strong></td>
+            <td><strong style="background:#8b31e0; color:white; font-size:3.2rem;">Notes</strong></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/3.jpg" alt="slide"></td>
+            <td> Now I want to introduce you all to some important people: our mentors!
+            <br>
+            <i>Have mentors join you at front of class and get them to say their name and favourite website/game</i>
+            <br><br>
+            The mentors will be here to help you if you have any problems, so don’t be afraid to ask them questions if you get stuck, or if you just want to show them your awesome projects! </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/5.jpg" alt="slide"></td>
+            <td>Review the agenda. Stress that we will be rotating through TWO stations - not everyone will try every station, but everyone will try 2 of the 3. </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/6.jpg" alt="slide"></td>
+            <td>
+              <ol>
+                  <li><strong>Ask for help</strong>: If you’re stuck or having trouble with something, work with the person beside you, or put up your hand to ask the facilitator or one of our mentors for help
+                  <li><strong>Be present</strong>: We really want you to learn a lot in this workshop, so make sure to pay attention and follow along with the activities
+                  <li><strong>Try your best</strong>: Even the best coders have trouble sometimes, so we don’t expect you to do everything perfectly the first time, but make sure you’re trying your best. Don’t be afraid to try things out and make mistakes!</td>
+                </ol>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/7.jpg" alt="slide"></td>
+            <td> *Take 2-3 responses*</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/8.jpg" alt="slide"></td>
+            <td> *Great time for Do the Robot unplugged activity*</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/10.jpg" alt="slide"></td>
+            <td>Q: What does collaborative mean?
+            <br>A: Together! We will be working on different projects and combining them to make one, amazing project.
+            <br><br>Q: What is a social issue? How is it different than a personal issue?
+            <br>A: A social issue affects a society or large group of people.</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/11.jpg" alt="slide"></td>
+            <td> *Take 2-3 responses*</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/12.jpg" alt="slide"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/13.jpg" alt="slide"></td>
+            <td>We're going to work through these stages together. They will be squished to fit into our workshop, but for most games, this process can take years to complete.
+            <br><br>Q: What do you notice about the production diagram / arrows?
+            <br>A: There are dotted arrows looping backwards. We might need to test things and make changes as we go.</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/14.jpg" alt="slide"></td>
+            <td>Today, each of you will work in teams and try out 2 of the 3 stations. There are more than just these three teams in a game production agency, but we will focus on Audio, Artworks, and Gamebuilding (or programming). </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/15.jpg" alt="slide"></td>
+            <td>Here are our three stations. We will have two groups begin with me at the Gamebuilding station, then split off to one of the other stations when we switch with the other two groups.
+            </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/16.jpg" alt="slide"></td>
+            <td>We can use technology (and games, specifically) to change the world! This could mean small changes, even - like helping people know that an issue exists. </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/17.jpg" alt="slide"></td>
+            <td>Games for Change is an organization that uses video games to create real-world change. Their mission statement is to "empower game creators and social innovators to drive real-world impact through games."
+            <br><br>Here are two examples from their website. </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/18.jpg" alt="slide"></td>
+            <td> We are going to create a "Catch Em" game, where our main character moves using the arrow keys, and they need to catch and avoid certain items.
+              <br><br>Here is an example of a "Catch Em" game. Ours will look different - with different players, goals, and rules - but will function more-or-less the same.
+              <br><br>*Press play to show the group*
+            </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/19.jpg" alt="slide"></td>
+            <td>*Insert theme here once you've chosen from the theme options (For example: Declining Bee Population)*
+            <br><br>Q: What do we know about our theme?
+            <br><br>*Go through each question with the group. Use the theme information sheet to add any important background information that was missed.*</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/20.jpg" alt="slide"></td>
+            <td>Q: Who can our main character be? What could they be collecting or avoiding?
+              <br><br>*Have learners turn to 2-3 elbow partners and brainstorm ideas for how to remix the "Catch Em" game.
+              <br><br>Put up a timer for 1-2 minutes (timer-tab.com). Before having them share with the entire group - go to the next slide to explain what a GDD is.*
+           </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/21.jpg" alt="slide"></td>
+            <td>A Game Design Document or GDD is how we will keep track of the ideas for our game.
+            <br><br> Q: Why does a GDD need to be "living" or changing?
+            <br>A: As we create our game, we might change our mind, have another idea we want to add in, or come across an issue that results in changing a part of our game. This is completely normal!
+            </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/22.jpg" alt="slide"></td>
+            <td>*Use a white board or anchor chart paper and markers to create your GDD with the group. Write <strong>Players, Rules, Goals, Title</strong> on the board.
+            <br><br>Have each group share their idea(s) from the Think-Pair-Share activity on what our game could look like.
+            <br><br>When someone has an idea, write it on the board. If the same idea is repeated, circle or underline it.
+            <br><br>Be sure to answer each of these questions together. Feel free to have the group vote or make an executive decision to save time.
+            <br><br> If you have coming up with ideas, see the example GDD on the theme information sheet for inspiration.*</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/23.jpg" alt="slide"></td>
+            <td>Today, we will work in pairs - either with another learner, or with a child and their parent/guardian.
+            <br><br>Q: Why pair programming? What might be the benefits of working with someone else?
+            <br>A: (e.g.) Two heads are better than one. The other person might have an idea to make the project even better. The other person can help catch mistakes and work with you to problem-solve. We can get more done in a shorter time when working with others. Etc...</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/24.jpg" alt="slide"></td>
+            <td><strong><em>The Chapter Lead will provide a list of teams. Direct 2 teams to the Gamebuilding station, 1 to the Audio station, and 1 to the Artworks station.</em></strong>
+            <br><br>When we call your name, please stand up. Once everyone in your team is standing, we will tell you which station to start at. While your team is waiting, you can (quietly!) share your names etc. and get to know each other!
+            <br><br>We will let you know when it's time to get started and listen to the mentors for instructions.</tr>
+        </table>
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Tech Stations: Group 1
+
+      * Review the checklist of what will be completed at this station
+      * Pair learners and assign each pair a level number
+      * Instruct each pair to create an account in scratch using the instructions on Slide 27
+      * <strong>Have pairs record their login info for the next group</strong>
+      * Quick Code-Along:
+        * Open up Scratch, and click on “create” (top, left corner)
+        * Point out the main elements: Stage, Sprites, and Scripts. Demonstrate how to drag and connect blocks
+        * Give learners 2 minutes to click on blocks and explore
+      * Follow the <strong><a href="https://drive.google.com/open?id=1AQNH-EQUEVi8GGe_lpqPpLaNOU2F5Rx0u0srs5nB-k0">solution sheet</a></strong> as you lead the group in creating a working foundation, stopping right after "Falling Obstacles"
+      * <strong>Tip</strong>: If the room is too loud - have learners leave their computers and come stand/sit right in front of the screen
+      * If you run out of time, continue where you left off with the second group
+      * Make sure everyone clicks on "SHARE" when they are finished (top, right corner)
+      * Have learners add their projects to the studio (Go to "My Class" > Select studio > Add Projects) - See slide 28
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Tech Stations: Group 2
+
+      * Review the checklist of what will be completed at this station
+      * Pair learners and assign each pair a level number
+      * Instruct learners to sign in with the logins recorded from the first group
+      * Quick Code-Along: (in a blank project)
+        * Open up Scratch, and click on “create” (top, left corner)
+        * Point out the main elements: Stage, Sprites, and Scripts. Demonstrate how to drag and connect blocks
+        * Give learners 2 minutes to click on blocks and explore
+      * Show them how to continue a project using the instructions on Slide 32
+      * Follow the <strong><a href="https://drive.google.com/open?id=1AQNH-EQUEVi8GGe_lpqPpLaNOU2F5Rx0u0srs5nB-k0">solution sheet</a></strong> as you lead the group in continuing their levels, picking up where the last group left off, and completing as much of the checklist as you can.
+      * <strong>Tip</strong>: If the room is too loud - have learners leave their computers and come stand/sit right in front of the screen
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Beta Testing
+
+      * Get everyone's attention and have them wrap up what they are doing at their station
+      * Use the slides to explain beta testing (see notes below)
+      * Explain that we will be focused on playing/testing the levels - we might not have time to fix every bug, but it's still valuable to get a taste of the process.
+      * While learners are testing the levels, take this time to collect USB's and get ready for the 'Game Release'
+
+      <table style="font-size:2rem;">
+          <tr>
+            <td><strong style="background:#8b31e0; color:white; font-size:3.2rem;">Slide</strong></td>
+            <td><strong style="background:#8b31e0; color:white; font-size:3.2rem;">Notes</strong></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/33.jpg" alt="slide"></td>
+            <td><em>Take 2-3 responses</em> </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/34.jpg" alt="slide"></td>
+            <td>Q: What is an example of a 'bug' that we could come across in our game?
+            <br>A: (e.g. The falling obstacle doesn't delete/disappear when it touches the ground)</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/35.jpg" alt="slide"></td>
+            <td><em>Try to take any examples from the previous slide and categorize them together</em> </td>
+            </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/36.jpg" alt="slide"></td>
+            <td><em>Go through the instructions together - before learners open their computers.
+              <br><br>Have learners pair program with parents/guardians, if present.
+              <br><br>If anyone has trouble logging in (with multiple users per account) they can still access the Scratch Class and play without logging in. Open up the Class and direct them to the URL (e.g. <a href="https://scratch.mit.edu/classes/68398/">scratch.mit.edu/classes/68398</a>)</em> </td>
+          </tr>
+          </table>
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Game Release
+
+      * <strong>Before</strong>: Collect all of the team USBs - Be sure to download the opening audio track (and any other ones created) to play for the group
+      * Instruct everyone to wrap up what they are working on and close their laptops
+      * Play the opening audio track to kick-off the game release
+      * Open up the Scratch Class Studio and briefly Demo each level for everyone (Optional: Have learners volunteer to help demo each level)
+      * Play any closing audio tracks (if applicable)
+      * <strong>Reflection</strong>: Use Slide 38 to reflect on what we learned
+      * Use Slide 39 to draw attention to anything that was missed
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Unplugged Activity (Optional)
+
+      If you notice that the group is needing a break, give them 10 minutes to use the washroom, get some water, or grab a snack from their bags. Another option is to run an unplugged activity midway through the workshop to get them out of their seats and moving around. Unplugged activities usually take around 10 minutes to run. Choose an unplugged activity from the <a href="https://docs.google.com/document/d/1tUTiHl7scs8RHdLLvdmZTFtD9EuAyZhetTLFgvar5CQ/edit?usp=sharing">activity list</a>. Suggested activity: Do The Robot.
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Closing Script
+
+      You all did an amazing job and we’re really impressed with how great your projects turned out.
+
+      If you want to learn more about coding, design, and technology, go onto our site girlslearningcode.com to check out all of our upcoming workshops and join our mailing list. (Announce next workshop and give short description).
+
+      Before we go, let’s give our mentors a big hand!
+
+      Thanks and we hope to see you all in another workshop soon!
+
+      <strong>Don't forget to take a team photo! </strong>
+
+    </script>
+  </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
