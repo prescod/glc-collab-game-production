@@ -12,8 +12,6 @@ Preview Slides: <a href="https://ladieslearningcode.github.io/glc-collab-game-pr
 
 Scratch "Catch Em" <a href="https://drive.google.com/open?id=1AQNH-EQUEVi8GGe_lpqPpLaNOU2F5Rx0u0srs5nB-k0">Solution Sheet</a>
 
-Theme options: Choose a theme from <a href="https://docs.google.com/document/d/1ENnFpzsV9gF_p4pmUxKl8xwXtrun50LEUObcS0XkoxU/edit?usp=sharing">this list</a>.
-
 ## Special Instructions
 
 As the instructor, you will be facilitating all of the entire-group content, as well as the Gamebuilding station. During the Tech Stations portion, the Chapter Lead will support the additional two stations (Audio and Artworks).
