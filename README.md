@@ -32,7 +32,6 @@ Youth Facilitator Handbook: <a href="http://bit.ly/youth-facilitator-handbook-do
 
 3 Days to Go
 
-* Select a theme from the theme options (Read up on the 5 W's, provided)
 * Create a class in the Scratch Teacher account, and upload the starter project(s) - OR confirm that this has been done.
 * Create a bit.ly link to join the class - OR confirm that this has been done. (e.g. bit.ly/glcday-toronto)
 * Make a student account using the bit.ly link and practice going through the "Catch Em" game in Scratch. (DO NOT EDIT THE STARTER PROJECT FROM THE TEACHER ACCOUNT)
@@ -43,12 +42,11 @@ Youth Facilitator Handbook: <a href="http://bit.ly/youth-facilitator-handbook-do
 
 * Update the slides (in a text editor, like <a href="https://atom.io/">atom.io</a>):
     * Insert the network info (Slide 1)
-    * Insert the theme (Slide 19)
     * Replace the bit.ly sign up link (Slide 27)
 
 1 Day to Go
 
-* Print Notes, Solution Sheet, and Theme Info Sheet to bring along
+* Print the Notes and Solution Sheet to bring along
 
 ## During the Workshop
 * Have Notes accessible throughout the workshop - follow along for support.
