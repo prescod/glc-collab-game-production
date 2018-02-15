@@ -6,9 +6,9 @@
 
 ## Quick Links
 
-Preview Instructor Notes: <a href="https://ladieslearningcode.github.io/glc-collab-game-production/notes-en.html">ladieslearningcode.github.io/glc-collab-game-production/notes-en.html</a>
+Preview Instructor Notes: <a href="https://prescod.github.io/glc-collab-game-production/notes-en.html">prescod.github.io/glc-collab-game-production/notes-en.html</a>
 
-Preview Slides: <a href="https://ladieslearningcode.github.io/glc-collab-game-production/slides-en.html">ladieslearningcode.github.io/glc-collab-game-production/slides-en.html</a>
+Preview Slides: <a href="https://prescod.github.io/glc-collab-game-production/slides-en.html">prescod.github.io/glc-collab-game-production/slides-en.html</a>
 
 Scratch "Catch Em" <a href="https://drive.google.com/open?id=1AQNH-EQUEVi8GGe_lpqPpLaNOU2F5Rx0u0srs5nB-k0">Solution Sheet</a>
 
