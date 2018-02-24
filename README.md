@@ -1,7 +1,3 @@
-# NOT YET AVAILABLE TO CHAPTERS
-
-## English: (Scroll down for French)
-
 # Girls Learning Code: Collaborative Game Production
 
 ## Quick Links
